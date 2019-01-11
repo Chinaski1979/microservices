@@ -1,0 +1,20 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "Util functions",
+  "author": "wepass-services <dev.wepass@gmail.com>",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "wepass-services/utils",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "properties",
+  "version": "0.0.2",
+  "description": "Properties micro-services",
+  "author": "wepass-services <dev.wepass@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "eslint": "4.18.2",
+    "lib": "3.0.1"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "wepass-services/properties",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

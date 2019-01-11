@@ -1,0 +1,26 @@
+{
+  "name": "database",
+  "version": "0.0.3",
+  "description": "Database microservices",
+  "author": "wepass-services <dev.wepass@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "eslint": "4.18.1",
+    "lib": "3.0.1",
+    "mongodb": "3.0.2"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "wepass-services/database",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "auth",
+  "version": "0.0.2",
+  "description": "Authorization micro-services",
+  "author": "wepass-services <dev.wepass@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "eslint": "4.17.0",
+    "lib": "3.0.1"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "wepass-services/auth",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
